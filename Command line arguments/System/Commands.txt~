@@ -1,0 +1,8 @@
+
+ ./Myexe > Demo.txt 
+  
+  
+ 
+ 
+ ./Myexe > Demo.txt < Input.txt
+ 
