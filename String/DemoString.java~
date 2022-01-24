@@ -1,0 +1,33 @@
+ 
+ class Demo
+  {
+    public static void main(String Arg[])
+     {
+       String str1 = "Hello";
+       String str2 = new String("Hello");
+       
+       char Arr[] = {'H','e','l','l','o'};
+       String str3 = new String(Arr);
+       
+       System.out.println(str1);
+       System.out.println(str2);
+       System.out.println(str3);
+       
+       System.out.println("String length is : "+str1.length());  // length method   (.length() )
+       System.out.println("Array length is : "+Arr.length); // length property (length)
+       
+       
+       String s1 = "Demo";
+       String s2 = "Demo";
+       String s3 = "Demo";
+       
+       String s4 = new String("Demo");
+       String s5 = new String("Demo");
+       String s6 = new String("Demo");
+                            
+       
+       
+       
+       
+     }
+  }
